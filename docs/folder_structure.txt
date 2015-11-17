@@ -1,0 +1,15 @@
+docs
+css
+images
+js
+blog
+index.html (opening page)
+	- menu
+	- services
+	- map
+	- table with pricing
+	- form (order)
+gyik.htm (F.A.Q)
+	- menu
+	- questions
+	- answers
