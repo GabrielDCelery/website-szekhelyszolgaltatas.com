@@ -1,3 +1,133 @@
-p {
-	margin: 20px;
-}
+/********************************************************************************
+SASS VARIABLES
+********************************************************************************/
+/********************************************************************************
+GENERAL STYLING ELEMENTS
+********************************************************************************/
+hr {
+  margin: 0.1em;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
+
+/********************************************************************************
+NAVBAR
+********************************************************************************/
+nav {
+  font-size: 0.8em; }
+
+.navbar {
+  margin-bottom: 0; }
+
+/********************************************************************************
+HEADER
+********************************************************************************/
+header {
+  background-image: url("../images/papbackground-1440-paper.jpg"); }
+  header [class^="col-"] {
+    text-align: center; }
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: "Agency FB", "Arial";
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em; }
+
+h1 {
+  font-size: 2.5em; }
+
+h2,
+h3 {
+  font-size: 2em;
+  color: #fff;
+  background: #000; }
+
+/********************************************************************************
+CONTENT - SERVICES
+********************************************************************************/
+#section-services img {
+  width: 30%;
+  float: left;
+  padding: 0.5em; }
+
+.services-box {
+  padding: 1em; }
+
+.services-title {
+  padding: 0.5em 0 0.5em 0;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold; }
+
+.services-list {
+  padding: 0.5em 0 0.5em 3em;
+  background-image: url("../images/checkmark-300x300.jpg");
+  background-size: 2em;
+  background-position: left center;
+  background-repeat: no-repeat; }
+
+/********************************************************************************
+CONTENT - PRICES
+********************************************************************************/
+#table-pricing tr img {
+  width: 28px; }
+#table-pricing tr th:not(:nth-child(1)),
+#table-pricing tr td:not(:nth-child(1)) {
+  text-align: center; }
+
+/********************************************************************************
+CONTENT - ORDER FORM
+********************************************************************************/
+#form-order {
+  margin: 0 auto;
+  max-width: 1280px;
+  background-image: url("../images/family-1280x400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  text-align: center; }
+  #form-order form {
+    padding: 1em;
+    background-color: #DCD2AA; }
+
+/********************************************************************************
+FOOTER
+********************************************************************************/
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center; }
+  footer .footer-partnerlink {
+    text-align: right;
+    background-color: #DCD2AA; }
+    footer .footer-partnerlink a {
+      text-decoration: none;
+      color: #111;
+      font-size: 0.8em; }
+
+/********************************************************************************
+MEDIAQUERY
+********************************************************************************/
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 16.8px; } }
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 19.6px; }
+
+  #form-order {
+    padding: 0 20%; } }
+/* Large Devices, .visible-lg-* */
+@media (min-width: 1200px) {
+  body {
+    font-size: 22.4px; }
+
+  #form-order {
+    padding: 0 20%; } }
+
+/*# sourceMappingURL=mystyle.css.map */
