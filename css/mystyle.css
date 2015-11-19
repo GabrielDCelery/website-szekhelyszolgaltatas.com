@@ -86,7 +86,7 @@ CONTENT - ORDER FORM
   max-width: 1280px;
   background-image: url("../images/family-1280x400.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: top center;
   text-align: center; }
   #form-order form {
@@ -121,13 +121,13 @@ MEDIAQUERY
     font-size: 19.6px; }
 
   #form-order {
-    padding: 0 20%; } }
+    padding: 0 22%; } }
 /* Large Devices, .visible-lg-* */
 @media (min-width: 1200px) {
   body {
     font-size: 22.4px; }
 
   #form-order {
-    padding: 0 20%; } }
+    padding: 0 22%; } }
 
 /*# sourceMappingURL=mystyle.css.map */

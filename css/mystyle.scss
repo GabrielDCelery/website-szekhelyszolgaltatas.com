@@ -131,7 +131,7 @@ CONTENT - ORDER FORM
 	max-width: 1280px;
 	background-image: url("../images/family-1280x400.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: top center;
 	text-align: center;
 
@@ -139,7 +139,7 @@ CONTENT - ORDER FORM
 		padding: 1em;
 		background-color: #DCD2AA;
 	}
-
+	
 }
 
 /********************************************************************************
@@ -181,7 +181,7 @@ MEDIAQUERY
 	}
 
 	#form-order {
-		padding: 0 20%;
+		padding: 0 22%;
 	}
 }
 
@@ -192,6 +192,6 @@ MEDIAQUERY
 	}
 
 	#form-order {
-		padding: 0 20%;
+		padding: 0 22%;
 	}
 }
