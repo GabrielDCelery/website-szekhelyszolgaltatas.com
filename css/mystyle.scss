@@ -10,6 +10,10 @@ $break-large-min: 1200px;
 
 $basefont: 14px;
 
+body, html {
+	height: 100%;
+}
+
 /********************************************************************************
 GENERAL STYLING ELEMENTS
 ********************************************************************************/
@@ -127,20 +131,20 @@ CONTENT - PRICES
 CONTENT - ORDER FORM
 ********************************************************************************/
 
+
 #form-order {
-	margin: 0 auto;
-	max-width: 1280px;
-	background-image: url("../images/family-1280x400.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: top center;
+
 	text-align: center;
+
+	img {
+		display: none;
+	}
 
 	form {
 		padding: 1em;
 		background-color: #DCD2AA;
 	}
-	
+
 }
 
 /********************************************************************************
@@ -173,6 +177,7 @@ MEDIAQUERY
 	body {
 		font-size: $basefont * 1.2;
 	}
+
 }
 
 /* Medium Devices, .visible-md-* */
@@ -182,8 +187,14 @@ MEDIAQUERY
 	}
 
 	#form-order {
-		padding: 0 22%;
+
+		img {
+			display: initial;
+			max-width: 220px;
+		}
+
 	}
+
 }
 
 /* Large Devices, .visible-lg-* */
@@ -193,6 +204,12 @@ MEDIAQUERY
 	}
 
 	#form-order {
-		padding: 0 22%;
+
+		img {
+			display: initial;
+			max-width: 320px;
+		}
+
 	}
+
 }

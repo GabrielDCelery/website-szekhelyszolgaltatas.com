@@ -214,33 +214,40 @@
 </section>
 
 <!-- CONTENT - ORDER FORM -->
+
 <section class="container-fluid">
-	<div class="row">
+	<div class="row" id="form-order">
 		<h3 class="col-xs-12 col-sm-12 col-md-12">Megrendelés</h3>
-	</div>
-	<div id="form-order">
-		<form>
-			<div class="form-group">
-				<label for="product">CSOMAG</label>
-				<select class="form-control" name="product" id="product">
-					<option selected="selected" disabled>Válasszon csomagot!</option>
-					<option>Fapados székhely (6 hónap = bruttó 19800.-Ft)</option>
-					<option>Normál székhely (6 hónap = bruttó 32940.-Ft)</option>
-					<option>Turbó székhely (6 hónap = bruttó 39540.-Ft)</option>
-				</select>
-				<div class="alert alert-danger collapse" role="alert">Kérem válasszon csomagot!</div>
-			</div>
-			<div class="form-group">
-				<label for="mail">EMAIL</label>
-				<input type="email" class="form-control" name="mail" id="mail" placeholder="Email">
-				<div class="alert alert-danger collapse" role="alert">Kérem adjon meg egy érvényes email címet!</div>
-			</div>
-			<div class="form-group">
-				<label for="phone">TELEFON (nem kötelező)</label>
-				<input type="text" class="form-control" name="phone" id="phone" placeholder="Telefon">
-			</div>
-			<button type="submit" class="btn btn-default btn-lg">Igen, megrendelem!</button>
-		</form>
+		 <div class="col-xs-0 col-sm-3 col-md-3">
+		 	<img src="images/family-01-400x400.jpg">
+		 </div>
+		 <div class="col-xs-12 col-sm-6 col-md-6">
+			<form>
+				<div class="form-group">
+					<label for="product">CSOMAG</label>
+					<select class="form-control" name="product" id="product">
+						<option selected="selected" disabled>Válasszon csomagot!</option>
+						<option>Fapados székhely (6 hónap = bruttó 19800.-Ft)</option>
+						<option>Normál székhely (6 hónap = bruttó 32940.-Ft)</option>
+						<option>Turbó székhely (6 hónap = bruttó 39540.-Ft)</option>
+					</select>
+					<div class="alert alert-danger collapse" role="alert">Kérem válasszon csomagot!</div>
+				</div>
+				<div class="form-group">
+					<label for="mail">EMAIL</label>
+					<input type="email" class="form-control" name="mail" id="mail" placeholder="Email">
+					<div class="alert alert-danger collapse" role="alert">Kérem adjon meg egy érvényes email címet!</div>
+				</div>
+				<div class="form-group">
+					<label for="phone">TELEFON (nem kötelező)</label>
+					<input type="text" class="form-control" name="phone" id="phone" placeholder="Telefon">
+				</div>
+				<button type="submit" class="btn btn-default btn-lg">Igen, megrendelem!</button>
+			</form>
+		 </div>
+		 <div class="col-xs-0 col-sm-3 col-md-3">
+		 	<img src="images/family-02-400x400.jpg">
+		 </div>
 	</div>
 
 </section>

@@ -22,12 +22,14 @@ $(document).ready(function(){
 
 	function getFaqData(searchParameters, callback){
 		var JsonData;
+		
 		$.ajax({
 			method: "POST",
 			url: "php/getdata-faq.php",
 			data: searchParameters,
 			dataType: "json"
 		}).done(function(data){
+			console.log(data)
 			JsonData = data;
 			callback(JsonData);
 		});
