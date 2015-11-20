@@ -73,34 +73,33 @@
 </nav>
 
 <!-- CONTENT - FAQ -->
+
+<div id="faq">
+</div>
+
+<script id="template-faq" type="text/template">
 <section class="container-fluid">
-	<div class="row" id="faq">
+	<div class="row">
+		<h1 class="col-xs-12 col-sm-12 col-md-12">KÉRDÉSEK</h2>
+		<div class="col-xs-12 col-sm-12 col-md-12">
+			<ol>
+				{{#faq}}
+				<li><a href="#{{question}}">{{question}}</a></li>
+				{{/faq}}
+			</ol>
+		</div>
+
+		<h2 class="col-xs-12 col-sm-12 col-md-12">VÁLASZOK</h2>
+		<div class="col-xs-12 col-sm-12 col-md-12 well">
+			{{#faq}}
+				<p class="bg-primary text-center" id="{{question}}">{{question}}</p>
+				<p>{{answer}}</p>
+			{{/faq}}
+		</div>
 	</div>
 </section>
 
-<script id="template-faq" type="text/template">
-
-	<h1 class="col-xs-12 col-sm-12 col-md-12">KÉRDÉSEK</h2>
-	<div class="col-xs-12 col-sm-12 col-md-12">
-		<ol>
-			{{#faq}}
-			<li><a href="#{{question}}">{{question}}</a></li>
-			{{/faq}}
-		</ol>
-	</div>
-
-	<h2 class="col-xs-12 col-sm-12 col-md-12">VÁLASZOK</h2>
-	<div class="col-xs-12 col-sm-12 col-md-12 well">
-		{{#faq}}
-			<p class="bg-primary text-center" id="{{question}}">{{question}}</p>
-			<p>{{answer}}</p>
-		{{/faq}}
-		
-</script>
-
-<!-- FOOTER -->
 <footer class="container-fluid">
-	<a id="index-contact"></a>
 	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-md-6">06-1/501-40-58</div>
 		<div class="col-xs-12 col-sm-6 col-md-6">06-70-777-51-82</div>
@@ -110,6 +109,8 @@
 		<div class="col-xs-12 col-sm-6 col-md-6">1035 Budapest, Miklós u. 13. VIII/42.</div>
 	</div>
 </footer>
+
+</script>
 
 
 </body>
