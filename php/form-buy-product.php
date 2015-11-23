@@ -31,8 +31,8 @@ $message_admin .= "\r\n";
 $message_admin .= 'Telefon: ';
 $message_admin .= $phone;
 
-$subject_admin = iconv("UTF-8", "ISO-8859-2", $subject);
-$message_admin = iconv("UTF-8", "ISO-8859-2", $message);
+$subject_admin = iconv("UTF-8", "ISO-8859-2", $subject_admin);
+$message_admin = iconv("UTF-8", "ISO-8859-2", $message_admin);
 
 mail($to_admin, $subject_admin, $message_admin, $header_admin);
 
@@ -50,9 +50,15 @@ $header = 'From: ' . $contact_email . "\r\n" .
 
 $message = 'Köszönjük megrendelését!';
 $message .= "\r\n";
+$message .= "\r\n";
 $message .= 'Jelen levelünkhöz csatoltunk egy adatlapot, amit ha kitölt és emailen visszaküld, akkor az felgyorsítja a szerződéskötés menetét.';
 $message .= "\r\n";
+$message .= "\r\n";
+$message .= "A csatolmány helye: http://szekhelyszolgaltatas.com/szekhelyszerzodeshez.doc";
+$message .= "\r\n";
+$message .= "\r\n";
 $message .= 'Amennyiben kérdése van, keressen bennünket telefonon!';
+$message .= "\r\n";
 $message .= "\r\n";
 $message .= $contact_name;
 $message .= "\r\n";
