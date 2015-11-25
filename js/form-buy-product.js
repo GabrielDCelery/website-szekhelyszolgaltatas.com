@@ -23,7 +23,6 @@ $(document).ready(function() {
         var checkEmail = checkEmailValidity();
         var formData = ($form).serialize();
         if(checkProduct && checkEmail){
-            console.log("success")
             $.ajax({
                 url: "php/form-buy-product.php",
                 method: "POST",

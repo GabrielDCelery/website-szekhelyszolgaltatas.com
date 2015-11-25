@@ -1,0 +1,59 @@
+[33mcommit fbd7817d16e5277836f8a3b12d09cdc72a35dc3f[m
+Author: Gabriel D. Celery <gabriel.d.celery@gmail.com>
+Date:   Mon Nov 23 09:25:49 2015 +0100
+
+    Fixed a small bug where the iconv function's arguments were wrong in the mail that was sent to the admin. Also added some additional text that is sent to the recepient
+
+[33mcommit dc69bbd2c234eb15f841662b3ec6e7c57cccd546[m
+Author: Gabriel D. Celery <gabriel.d.celery@gmail.com>
+Date:   Fri Nov 20 15:40:53 2015 +0100
+
+    Changed the layout of the form on the index page so now the images are displayed better
+
+[33mcommit 4030e7caa7c7bf49ad2b8e50915befa0128d3a43[m
+Author: Gabriel D. Celery <gabriel.d.celery@gmail.com>
+Date:   Fri Nov 20 12:49:40 2015 +0100
+
+    Chaged the gyik.html in a way that the footer doesn't load awkwardly
+
+[33mcommit b415e1d0909076ff1dde425308f6b0929da5c6ba[m
+Author: Gabriel D. Celery <gabriel.d.celery@gmail.com>
+Date:   Fri Nov 20 11:38:21 2015 +0100
+
+    Write the code for gyik.html, getdata-faq.js and getdata-faq.php. Also changed the styling in mystyle.css for the gyik.html and changed the settings.php to be able to connect to a database
+
+[33mcommit 84cb73d159e3863b39c2031d59a403cf6e5d6edd[m
+Author: Gabriel D. Celery <gabriel.d.celery@gmail.com>
+Date:   Fri Nov 20 09:32:13 2015 +0100
+
+    Changed the object literal pattern to revealing modular pattern in form-buy-product.js
+
+[33mcommit 137d6b12921f5109318ed86ee550c7c28bfca062[m
+Author: Gabriel D. Celery <gabriel.d.celery@gmail.com>
+Date:   Thu Nov 19 12:47:34 2015 +0100
+
+    Renamed myscript.js and buy-product-form.php to form-buy-product.js and form-buy-product.php
+
+[33mcommit 8154027dd803dab184a630a5a4eaa3a40befa602[m
+Author: Gabriel D. Celery <gabriel.d.celery@gmail.com>
+Date:   Thu Nov 19 11:08:33 2015 +0100
+
+    Purchase service form javascript and php coding added. settings.php - settings of website, myscript.js - added the form handler object literal, buy-produc-form.php - email sender script (doesn't have the attached document feature yet)
+
+[33mcommit f0cabad71fa8bd253ef45d32acfee2ced1813b4e[m
+Author: Gabriel D. Celery <gabriel.d.celery@gmail.com>
+Date:   Wed Nov 18 12:59:34 2015 +0100
+
+    Finished the first version of index.html and mystyle.css
+
+[33mcommit 3bd96af98be4b66d49a6ceacaab8942f69ec139d[m
+Author: Gabriel D. Celery <gabriel.d.celery@gmail.com>
+Date:   Tue Nov 17 08:43:50 2015 +0100
+
+    Created a basic folder and file structure, plus added links to bootstrap, jquery
+
+[33mcommit b81675452dcdb91d74ed47baada2a3602d162df8[m
+Author: GabrielDCelery <gabriel.d.celery@gmail.com>
+Date:   Mon Nov 16 17:33:43 2015 +0100
+
+    Initial commit

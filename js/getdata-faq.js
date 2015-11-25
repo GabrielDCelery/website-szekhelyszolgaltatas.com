@@ -29,7 +29,6 @@ $(document).ready(function(){
 			data: searchParameters,
 			dataType: "json"
 		}).done(function(data){
-			console.log(data)
 			JsonData = data;
 			callback(JsonData);
 		});

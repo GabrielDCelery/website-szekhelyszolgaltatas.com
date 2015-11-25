@@ -1,0 +1,31 @@
+<!DOCTYPE html><html><head><title>Zeller és Zeller Kft. - Gyakori kérdések</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><!-- JQuery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script><!-- Latest compiled and minified CSS --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous"><!-- Latest compiled and minified JavaScript --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script><!-- Mustasche.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script><!-- Website's customstyle.css --><link rel="stylesheet" type="text/css" href="css/customstyle.min.css"><!-- Website's customjs.min.js --><script type="text/javascript" src="minjs/getdata-faq.js"></script></head><body><!-- MAIN MENU --><nav class="navbar navbar-default"><div class="container-fluid"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button></div><div class="collapse navbar-collapse" id="mainNavBar"><ul class="nav navbar-nav"><li><a href="index.html">SZÉKHELY BUDAPESTEN</a></li><li class="drowdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">GYAKORI KÉRDÉSEK <span class="caret"></span></a><ul class="dropdown-menu"><li><a href="gyik.html?cegalapitas">Cégalapítás/cégmódosítás</a></li><li><a href="gyik.html?vegelszamolas">Végelszámolás</a></li></ul></li><li><a href="/blog">HASZNOS INFORMÁCIÓK</a></li><li><a href="index.html#index-contact">KAPCSOLAT</a></li></ul></div></div></nav><!-- CONTENT - FAQ --><div id="faq"></div><script id="template-faq" type="text/template"><section class="container-fluid">
+	<div class="row">
+		<h1 class="col-xs-12 col-sm-12 col-md-12">KÉRDÉSEK</h2>
+		<div class="col-xs-12 col-sm-12 col-md-12">
+			<ol>
+				{{#faq}}
+				<li><a href="#{{question}}">{{question}}</a></li>
+				{{/faq}}
+			</ol>
+		</div>
+
+		<h2 class="col-xs-12 col-sm-12 col-md-12">VÁLASZOK</h2>
+		<div class="col-xs-12 col-sm-12 col-md-12 well">
+			{{#faq}}
+				<p class="bg-primary text-center" id="{{question}}">{{question}}</p>
+				<p>{{answer}}</p>
+			{{/faq}}
+		</div>
+	</div>
+</section>
+
+<footer class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-6">06-1/501-40-58</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">06-70-777-51-82</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">Zeller & Zeller Kft.</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">ad.sz.: 22620682-1-41</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">info (kukac) szekhelyszolgaltatas.com</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">1035 Budapest, Miklós u. 13. VIII/42.</div>
+	</div>
+</footer></script></body></html>
